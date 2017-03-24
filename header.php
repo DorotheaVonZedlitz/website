@@ -3,7 +3,7 @@
 <html lang="de">
   <head>
     <meta charset="utf-8" />
-    <title><?php wp_title(); ?> - <?php bloginfo('name'); ?></title>
+    <title><?php bloginfo('name'); ?> <?php wp_title(); ?> </title>
 
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
@@ -29,7 +29,7 @@
                     </button>
                     <div class="site-logo">
                       <a href="#" class="brand">
-                      <img id="logo" src="http://s657876122.online.de/wp-content/themes/linkIT/assets/img/logo/LinkIT_Logo.jpg" alt=""></a>
+                      <img id="logo" src="http://linkit.tech/wp-content/themes/linkIT/assets/img/logo/LinkIT_Logo.jpg" alt=""></a>
                     </div>
                   </div>
                   <!-- *************** Headerbereich ende ****************** -->
