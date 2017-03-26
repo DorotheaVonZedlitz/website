@@ -43,6 +43,6 @@ add_action( 'widgets_init', 'widgets_init' );
 function add_my_own_js() {
   wp_enqueue_script( 'jquery min js', get_stylesheet_directory_uri() . '/assets/js/jquery-3.1.1.js' );
   wp_enqueue_script( 'boot min js', get_stylesheet_directory_uri() . '/assets/js/bootstrap.min.js' );
-
+  wp_enqueue_script( 'boot min js', get_stylesheet_directory_uri() . '/assets/analytics/analytics.js' );
 }
 add_action( 'wp_enqueue_scripts', 'add_my_own_js' );
