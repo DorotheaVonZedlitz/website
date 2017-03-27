@@ -142,6 +142,9 @@ body {
   background: #64B4DC;
   margin-bottom: 15vh;
 }
+.blogbg {
+  background: #f1f1f1;
+}
 .blogSite h1{
 
 
@@ -160,10 +163,20 @@ body {
   padding: 15px;
 }
 .blogLeft {
-  background: white;
-  border: 1px solid #dadada;
+  background: transparent;
   margin-bottom: 1vh;
   margin-top: 5vh;
+
+}
+.blogarticle > h2 {
+  font-size: 30px !important;
+  margin: 0px !important;
+  margin-bottom: 5px !important;
+}
+.blogarticle{
+  background: white !important;
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  margin-bottom: 1vh;
 }
 .blog-header {
   display: block;
@@ -199,24 +212,25 @@ body {
 *                                SIDEBAR                                       *
 *******************************************************************************/
 .sidebar {
-
+  margin-top: 5vh;
 }
 .sidebar li{
   padding: 20px;
-  border: 1px solid #dadada;
-  margin-top: 5vh;
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  margin-top: 1vh;
   list-style: none;
-  background: white;
+  background: white !important;
 }
 .sidebar li > ul > li{
   padding: 0px;
   border: none;
   list-style: inherit;
   margin-top: 1vh;
+  box-shadow: none;
 }
 .sidebar ul {
   padding-top: 10px;
-  padding-left: 40px;
+
 }
 #categories-4 strong{
   color: #64B4DC;

@@ -1,12 +1,12 @@
 <?php get_header(); ?>
 
         <div id="main">
-          <div id="content">
+          <div class="blogbg" id="content">
             <div class="container">
               <div class="row">
                 <div class="blogLeft col-sm-8">
                   <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-                    <div class="article">
+                    <div class="blogarticle article">
                       <h2 class="title"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
                       <div class="blog-header"></div>
                       <p>
