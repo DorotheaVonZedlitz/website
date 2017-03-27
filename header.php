@@ -3,7 +3,7 @@
 <html lang="de">
   <head>
     <meta charset="utf-8" />
-    <title><?php bloginfo('name'); ?> <?php wp_title(); ?> </title>
+    <title><?php wp_title(); ?> </title>
 
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
