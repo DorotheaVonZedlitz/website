@@ -44,5 +44,9 @@ function add_my_own_js() {
   wp_enqueue_script( 'jquery min js', get_stylesheet_directory_uri() . '/assets/js/jquery-3.1.1.js' );
   wp_enqueue_script( 'boot min js', get_stylesheet_directory_uri() . '/assets/js/bootstrap.min.js' );
   wp_enqueue_script( 'boot min js', get_stylesheet_directory_uri() . '/assets/analytics/analytics.js' );
+  wp_enqueue_script( 'ga js', get_stylesheet_directory_uri() . '/assets/ws1/ga.js' );
+  //wp_enqueue_script( 'accordion min js', get_stylesheet_directory_uri() . '/assets/ws1/jquery.cbpNTAccordion.min.js' );
+  //wp_enqueue_script( 'moment js', get_stylesheet_directory_uri() . '/assets/ws1/moment.js' );
+  //wp_enqueue_script( 'custom js', get_stylesheet_directory_uri() . '/assets/ws1/custom.js' );
 }
 add_action( 'wp_enqueue_scripts', 'add_my_own_js' );
