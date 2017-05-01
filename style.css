@@ -18,6 +18,10 @@
 body {
     background: white;/*rgba(0, 0, 0, 0.01);*/
 }
+
+.custom-padding {
+  padding: 20px;
+}
 /*******************************************************************************
 *                                NAVIGATION                                    *
 *******************************************************************************/
@@ -35,6 +39,11 @@ body {
   color: #444;
 
 }
+/* overwrite Bootstrap to fix spacing on the right end of the navbar */
+.navbar-nav.navbar-right:last-child {
+  margin-right: 0px !important;
+}
+
 
 @media (min-width: 768px) {
 #menu-menu-1 li:hover .sub-menu {
