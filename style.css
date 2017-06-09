@@ -307,6 +307,24 @@ body {
 #tribe-events-content .tribe-events-tooltip h4, #tribe_events_filters_wrapper .tribe_events_slider_val, .single-tribe_events a.tribe-events-gcal, .single-tribe_events a.tribe-events-ical {
   color: white !important;
 }
+.tribe-events-single {
+  padding: 10vh !important;
+}
+
+.event-bewerbung-button {
+  background: rgb(85, 205, 65) !important;
+  color: white;
+  padding: 15px;
+  border-radius: 3px;
+  font-weight: 600;
+}
+.event-bewerbung-button:hover {
+  background: rgb(85, 205, 65) !important;
+  color: white;
+  padding: 15px;
+  border-radius: 3px;
+  font-weight: 600;
+}
 /*******************************************************************************
 *                                CONTACT                                       *
 *******************************************************************************/
