@@ -9,6 +9,10 @@
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"/>
 
+    <meta property="og:image" content="http://linkit.tech/wp-content/themes/linkIT/assets/img/logo/LinkIT_Logo.jpg" />
+
+    <meta property="og:description" content="Die studentische Initiative LinkIT e.V. wurde im Herbst 2015 von Studenten verschiedener Studiengänge des Karlsruher Instituts für Technologie (KIT) ins Leben gerufen. Mittlerweile zählt unsere Hochschulgruppe schon mehr als 50 Mitglieder und die Tendenz ist steigend. Uns verbindet das gemeinsame Interesse an allen Themen rund um Industrie 4.0 und die Begeisterung für die industrielle Technik von morgen." />
+
 
     <?php wp_head(); ?>
   </head>
