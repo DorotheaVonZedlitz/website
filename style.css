@@ -276,6 +276,22 @@ body {
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
+
+.jobwallrow {
+  box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.11);
+  background: white;
+  margin-bottom: -2.5vh;
+
+}
+.jobwall_body {
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  background: #f1f1f1;
+  padding: 1% !important;
+}
 /*******************************************************************************
 *                                Veranstaltungen                               *
 *******************************************************************************/
