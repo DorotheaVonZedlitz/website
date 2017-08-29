@@ -284,13 +284,18 @@ body {
 
 }
 .jobwall_body {
+  /*
   border-left: 1px solid grey;
   border-right: 1px solid grey;
   border-bottom: 1px solid grey;
+  */
   padding-left: 0px !important;
   padding-right: 0px !important;
   background: #f1f1f1;
   padding: 1% !important;
+}
+.jobwall_window {
+  padding: 10%;
 }
 /*******************************************************************************
 *                                Veranstaltungen                               *
