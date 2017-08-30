@@ -5,6 +5,8 @@
     <meta charset="utf-8" />
     <title><?php wp_title(); ?> </title>
 
+    <meta name="author" content="Florian Göbel">
+
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"/>
