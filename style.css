@@ -272,9 +272,99 @@ body {
 /*******************************************************************************
 *                                Jobwall                                       *
 *******************************************************************************/
+#main {
+  min-height: 100vh;
+}
+
+#job-location-list > h4 {
+  background: #64B4DC;
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+
+.fg_job_liste {
+  display: -webkit-box !important;
+}
+
+
+.fg_job_liste > li {
+
+  box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.11);
+  background: white;
+  margin-bottom: 2.5vh;
+  overflow: auto;
+  padding: 1%;
+  transition: all .2s ease-in-out;
+  margin-left: 1%;
+
+}
+.fg_job_liste > li:hover {
+  transition: all .2s ease-in-out;
+  transform: scale(1.05);
+}
+.fg_jobwall_overview {
+  background: #f1f1f1;
+  padding: 2%;
+}
+.fg_jobwall_overview h3{
+  background: #64B4DC;
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+
 #pg-890-0 .panel-grid-cell{
   padding-left: 0px !important;
   padding-right: 0px !important;
+
+}
+.fg_jobwall_unternehmen{
+
+  box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.11);
+  background: white;
+  margin-bottom: 2.5vh;
+  overflow: auto;
+  padding: 1%;
+  transition: all .2s ease-in-out;
+
+}
+.fg_jobwall_unternehmen:hover {
+  transition: all .2s ease-in-out;
+  transform: scale(1.05);
+}
+.fg_jobwall_unternehmen_jobs{
+
+  box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.11);
+  background: white;
+  margin-bottom: 2.5vh;
+  overflow: auto;
+  padding: 1%;
+
+
+}
+.fg_jobwallrow {
+  box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.11);
+  background: white;
+  margin-bottom: 2.5vh;
+  overflow: auto;
+  padding: 1%;
+}
+.fg_jobwall_bg {
+  background: #f1f1f1 !important;
+  padding: 1%;
+  margin-bottom: 5vh;
+}
+
+.fg_jobwall_headline {
+  background: #64B4DC;
+  padding: 15px;
+
+}
+.fg_jobwall_headline > h1{
+  text-align: center;
+  color: white;
+
 }
 
 .jobwallrow {
@@ -296,6 +386,9 @@ body {
 }
 .jobwall_window {
   padding: 10%;
+}
+.jobwall_klick {
+  display: block;
 }
 /*******************************************************************************
 *                                Veranstaltungen                               *
