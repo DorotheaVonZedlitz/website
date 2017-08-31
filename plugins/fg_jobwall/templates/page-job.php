@@ -4,6 +4,7 @@
       <div class="row">
         <div style="margin-top: 5vh; padding: 0px !important;" class="col-sm-12">
 
+          <a class="fg_jobwall_btn" href="http://www.linkit.tech/jobwall">Zurück zur Übersicht</a>
 
           <div class="fg_jobwall_headline">
             <h1>Jobwall</h1>
@@ -23,7 +24,7 @@
               <span>Veröffentlicht am: <?php the_date('d.m.Y'); ?></span>
 
 
-              <?php echo esc_url( get_term_link( $location ) )?>
+
 
 
 
@@ -43,6 +44,6 @@
 
 
 
-  </div> <!-- #main -->
+  </div> <!-- #main   - Alle Stellen in der Kategorie: <?php echo esc_url( get_term_link( $location ) )?>-->
 
 <?php get_footer(); ?>
