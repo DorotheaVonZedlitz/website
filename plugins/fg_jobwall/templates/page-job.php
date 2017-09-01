@@ -33,6 +33,11 @@
 
           <?php endwhile; endif; ?>
           </div>
+          <div style="margin-top: -5vh;" id="paginate" class="">
+            <?php
+            echo paginate_links();
+             ?>
+          </div>
 
 
         </div>
