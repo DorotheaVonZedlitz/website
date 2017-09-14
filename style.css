@@ -283,6 +283,10 @@ body {
   color: white;
 }
 
+.fg_jobwall_h2 {
+  font-size: 1.5em;
+}
+
 .fg_job_liste {
   display: -webkit-box !important;
 }

@@ -12,7 +12,7 @@
           </div>
           <div class="col-sm-10">
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-            <h2><a href="<?php echo esc_html( get_post_meta( get_the_ID(), 'principle_duties', true ) ); ?>"><?php the_title(); ?></a></h2>
+            <h2 class="fg_jobwall_h2"><a href="<?php echo esc_html( get_post_meta( get_the_ID(), 'principle_duties', true ) ); ?>"><?php the_title(); ?></a></h2>
             <span>Veröffentlicht am: <?php the_date('d.m.Y'); ?></span>
             <p style="color: red;"><?php echo esc_html( get_post_meta( get_the_ID(), 'principle_duties', true ) ); ?></p>
             <?php endwhile; endif; ?>

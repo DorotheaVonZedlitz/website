@@ -20,7 +20,7 @@
             </div>
             <div class="col-sm-10">
 
-              <h2><a href="<?php echo esc_html( get_post_meta( get_the_ID(), 'principle_duties', true ) ); ?>"><?php the_title(); ?></a></h2>
+              <h2 class="fg_jobwall_h2"><a href="<?php echo esc_html( get_post_meta( get_the_ID(), 'principle_duties', true ) ); ?>"><?php the_title(); ?></a></h2>
               <span>Veröffentlicht am: <?php the_date('d.m.Y'); ?></span>
 
 
