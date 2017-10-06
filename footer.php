@@ -17,7 +17,7 @@
     </div>
   </footer>
 
-</div><!-- #footer -->
+</div><!-- #footer end -->
 
 </div><!-- .inner -->
 </div><!-- #wrapper -->
