@@ -71,9 +71,9 @@ function fg_list_job_by_location( $atts, $content = null ) {
         	$title = get_the_title();
         	$slug = get_permalink();
         	$display_by_location .= '<li class="job-listing">';
-            $display_by_location .= sprintf( '<a href="%s">%s</a>&nbsp&nbsp', esc_url( $slug ), esc_html__( $title ) );
-            $display_by_location .= '<span>' . esc_html( $deadline ) . '</span>';
-            $display_by_location .= '</li>';
+          $display_by_location .= sprintf( '<a href="%s">%s</a>&nbsp&nbsp', esc_url( $slug ), esc_html__( $title ) );
+          $display_by_location .= '<span>' . esc_html( $deadline ) . '</span>';
+          $display_by_location .= '</li>';
 
         endwhile;
 
