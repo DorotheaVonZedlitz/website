@@ -44,6 +44,10 @@ body {
   margin-right: 0px !important;
 }
 
+.navbar-collapse {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
 
 @media (min-width: 768px) {
 #menu-menu-1 li:hover .sub-menu {
@@ -288,7 +292,8 @@ body {
 }
 
 .fg_job_liste {
-  display: -webkit-box !important;
+  /*display: -webkit-box !important;*/
+  display: block;
 }
 /*
 .fg_jobwall_btn {
@@ -301,16 +306,18 @@ body {
 
   box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.11);
   background: white;
-  margin-bottom: 2.5vh;
+  margin-bottom: 1vh;
   overflow: auto;
-  padding: 1%;
+  padding: 15px;
   transition: all .2s ease-in-out;
-  margin-left: 1%;
+  text-align: center;
+
+
 
 }
 .fg_job_liste > li:hover {
   transition: all .2s ease-in-out;
-  transform: scale(1.05);
+  transform: scale(1.01);
 }
 .fg_jobwall_overview {
   background: #f1f1f1;
